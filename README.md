@@ -9,4 +9,5 @@ Kelas WEB-1A
 Kelompok A09 :
 1. Arif Budiman ( 0970777121-385 )
 2. Waletta Dinda Marina ( 0970777120-104 )
-3. Gomgom Jhonatan
+3. Gomgom Jhonatan Marbun ( 0970777021-45 )
+4. Tommy Edityantama
