@@ -145,6 +145,9 @@ header {
 .artikel {
   float: left;
   width: 25%;
+  opacity: 0;
+  animation: appearArtikel 3s forwards;
+  animation-delay: 1.5s;
 }
 
 .artikel-icon {
@@ -160,6 +163,7 @@ header {
 .artikel-icon:hover img{
   box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
   margin-top: -8px;
+  cursor: pointer;
 }
 
 .artikel-icon p {
@@ -185,9 +189,20 @@ header {
 }
 
 .subscribe-wrapper {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f7f7f7;
   padding-bottom: 80px;
   text-align: center;
+  position: relative;
+}
+
+.subscribe-wrapper img{
+  position: absolute;
+  opacity: 0;
+  bottom: 0px;
+  right: 0px;
+  z-index: -1;
+  animation: appearBg 3s forwards;
+  animation-delay: 3s;
 }
 
 .fas{
@@ -217,9 +232,10 @@ footer p {
 }
 
 footer {
-  height: 65px;
+  height: 165px;
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color: #f7f7f7;
 }
 .fa {
   margin-left: 5px;
@@ -233,6 +249,10 @@ footer {
 .footer-right {
   float: right;
 
+}
+.footer-left img{
+  width: 100px;
+  height: 100px;
 }
 
 .main {
@@ -291,5 +311,23 @@ footer {
   100%{
     opacity: 1;
     text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes appearBg{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes appearArtikel{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
   }
 }
