@@ -241,9 +241,9 @@ footer {
 
 .main .mid-wrapper {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 200px;
   font-size: 40px;
-  color: #0A3642;
+  color: #ffff;
   font-family: 'Train One', cursive;
   letter-spacing: 2px;
 }
@@ -251,12 +251,12 @@ footer {
 .main .mid-wrapper-1 {
   text-align: center;
   font-size: 40px;
-  color: #0f4e5f;
+  color: #ffff;
   font-family: 'Train One', cursive;
   letter-spacing: 2px;
 }
 
 .main .bottom-wrapper {
   text-align: center;
-  color: #0F5460
+  color: #ffff;
 }
