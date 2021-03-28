@@ -285,6 +285,7 @@ footer {
   animation: slideFromLeft 1.5s forwards;
 }
 
+
 .main-subheader{
   opacity: 0;
   animation: appear 3s forwards;
