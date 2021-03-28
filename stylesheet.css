@@ -260,3 +260,36 @@ footer {
   text-align: center;
   color: #ffff;
 }
+
+.main-header{
+  animation: slideFromLeft 1.5s forwards;
+}
+
+.main-subheader{
+  opacity: 0;
+  animation: appear 3s forwards;
+  animation-delay: 1s;
+}
+
+@keyframes slideFromLeft{
+  0%{
+    margin-left: -600px;
+  }
+  75%{
+    margin-left: 0px;
+  }
+  100%{
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes appear{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+  }
+}
