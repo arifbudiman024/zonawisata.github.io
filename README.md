@@ -6,7 +6,7 @@ Deskripsi :
 Website zona wisata "<em>Tourism Zone</em>" ini merupakan website yang menyajikan artikel - artikel tentang destinasi wisata yang ada di Indonesia.  
 
 
-Kelas WEB-1A
+DTS - PROA - Kelas WEB-1A
 
 Kelompok A09 :
 1. Arif Budiman ( 0970777121-385 )
