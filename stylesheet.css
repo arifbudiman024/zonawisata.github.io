@@ -31,11 +31,28 @@ a {
   min-height: 1000px;
 }
 
+.main-subpage{
+  padding: 180px 0 100px 0;
+  background-color: rgba(34, 49, 52, 0.9);
+  background-size: cover;
+  color: white;
+  /* text-align: center; */
+  min-height: 525px;
+}
+
 .main .top-wrapper {
   opacity: 1;
   font-size: 72px;
   letter-spacing: 3px;
   margin-bottom: 10px;
+}
+
+.main-subpage .top-wrapper {
+  opacity: 1;
+  font-size: 72px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .main p {
@@ -285,6 +302,9 @@ footer {
   animation: slideFromLeft 1.5s forwards;
 }
 
+.main-subpage .main-header{
+  animation: appear 1.5s forwards;
+}
 
 .main-subheader{
   opacity: 0;
